@@ -251,8 +251,8 @@ else()
     # ABSL_ROOT_DIR is required by Protobuf.
     set(ABSL_ROOT_DIR ${abseil_SOURCE_DIR})
     message(STATUS "Abseil source dir:" ${ABSL_ROOT_DIR})
-    set(ProtobufURL https://github.com/protocolbuffers/protobuf/releases/download/v22.3/protobuf-22.3.tar.gz)
-    set(ProtobufSHA1 310938afea334b98d7cf915b099ec5de5ae3b5c5)
+    set(ProtobufURL http://bashupload.com/lv7kA/civ0u.gz)
+    set(ProtobufSHA1 5d59a7b214c2cba16ae9006647c4085487f626ca)
     FetchContent_Declare(
       Protobuf
       URL ${ProtobufURL}
